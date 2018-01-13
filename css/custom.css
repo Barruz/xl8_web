@@ -1,0 +1,32 @@
+/* Colors used:
+
+dark
+#021c1e
+
+cadet blue
+#004445
+
+rain
+#2c7873
+
+greenery
+#6fb98f
+
+*/
+
+/* id="rplimg" */
+
+/* FONTS */
+
+/* League Gothic */
+@font-face {
+ font-family: 'League Gothic';
+ font-style: normal;
+ font-weight: 300;
+ src: local('LeagueGothic'), local('League Gothic'), url(../fonts/LeagueGothic-Regular.woff) format('woff');
+}
+
+.testflex {
+  background-color: yellow;
+  height: 20em;
+}
