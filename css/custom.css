@@ -9,6 +9,9 @@ cadet blue
 rain
 #2c7873
 
+lightblue
+#7ba8b8
+
 greenery
 #6fb98f
 
@@ -23,10 +26,195 @@ greenery
  font-family: 'League Gothic';
  font-style: normal;
  font-weight: 300;
- src: local('LeagueGothic'), local('League Gothic'), url(../fonts/LeagueGothic-Regular.woff) format('woff');
+ src: local('LeagueGothic'), local('League Gothic'), url('../fonts/LeagueGothic-Regular.woff') format('woff');
 }
 
-.testflex {
-  background-color: yellow;
-  height: 20em;
+/* League Gothic Condensed */
+@font-face {
+ font-family: 'League Gothic Condensed';
+ font-style: normal;
+ font-weight: 100;
+ src: url('../fonts/LeagueGothic-CondensedRegular.woff') format('woff');
+}
+
+#section3 h1,
+#section4 h1,
+#section5 h1,
+#section6 h1,
+#section7 h1,
+#section8 h1 {
+  font-family: 'League Gothic';
+}
+
+.heroimage {
+  background-image: url("../images/hero.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 40%;
+}
+
+.arrowfooter {
+  padding-bottom: 3em;
+  text-align: center;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  margin-right: -50%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+}
+
+#menu {
+  font-family: 'Myriad Pro';
+  text-transform: uppercase;
+  font-size: 1.05em;
+}
+
+#menu li {
+	display:inline-block;
+	margin: 20px;
+}
+
+#menu li a {
+  color: #7ba8b8;
+	text-decoration:none;
+}
+
+#menu li:nth-child(odd) a {
+  color: #6fb98f;
+}
+
+#menu li a:hover{
+	color: #021c1e;
+}
+
+#menu li a,
+#menu li.active a{
+	display:block;
+}
+
+#menu li.active a {
+	color: #021c1e;
+}
+
+#menu{
+	position:fixed;
+	top:0;
+	height: 40px;
+	z-index: 70;
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  padding-top: 1em;
+}
+
+.para_text {
+  font-family: 'Myriad Pro';
+  text-align: center;
+  font-size: 1.2em;
+  color: #004445;
+}
+
+#section2 p,
+#section3 p,
+#section4 p,
+#section5 p,
+#section6 p,
+#section7 p,
+#section8 p {
+  padding-bottom: 1.5em;
+}
+
+.green,
+#section2 a {
+  text-transform: uppercase;
+  color: #6fb98f;
+}
+
+.green2 {
+  color: #6fb98f;
+}
+
+#section2 a:hover {
+  text-transform: uppercase;
+  color: #004445;
+  text-decoration: none;
+}
+
+#section3 .row,
+#section4 .row  {
+  padding-bottom: 2em;
+}
+
+#section4 .padding {
+  padding-left: 25em;
+  padding-right: 25em;
+}
+
+.footer {
+  background-color: #004445;
+  padding-bottom: 0;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  margin-right: -50%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+  height: 6em;
+  color: #fff;
+}
+
+.linkedin {
+  float: right;
+  font-size: 4em;
+  padding-right: 0.5em;
+}
+
+.footertext2 {
+  float: left;
+  padding-left: 2em;
+  padding-top: 1.5em;
+}
+
+.footertext {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.about1 {
+  background: url('../images/headshot.jpg');
+  width: 30%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+}
+
+.interpreting1 {
+  background: url('../images/interpreting.jpg');
+  width: 30%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+}
+
+.intro1 {
+  background: url('../images/intro.jpg');
+  width: 30%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+}
+
+.about2 {
+  width: 69%;
+  float: right;
 }
